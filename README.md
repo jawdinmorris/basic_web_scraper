@@ -14,7 +14,7 @@ To generate your individual json files based of links.json
 
 * Workflow    
   * Todo  
-  In individuals Check to see if files already exist before making them.  
+  In individuals check to see if files already exist before making them.  
   In broader list see if a url is an element already before adding.  
   For job title - If the formatting doesn't include the h1 the h2 grabs more than is needed.   
   Regex location and position so if there's more than one we chuck it into an array.  
@@ -31,3 +31,7 @@ To generate your individual json files based of links.json
   node.js  
   express (Quick formatting)  
   cheerio (personally new library, good DOM mapping)  
+
+Note so far:  
+Enjoy using Cheerio for jQuery, unsure if it's really much easier than without though.
+Created a jobBlank so that jobs folder would appear on github. Unsure how to write a file into a folder that doesn't exist yet?
