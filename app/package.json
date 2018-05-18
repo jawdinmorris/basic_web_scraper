@@ -1,0 +1,13 @@
+{
+  "name": "first_web_scraper",
+  "version": "0.0.1",
+  "description": "Creating a basic web scraper as a challenge",
+  "main": "main.js",
+  "author": "Jordan M",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  }
+}
