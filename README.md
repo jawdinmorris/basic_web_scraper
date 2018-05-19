@@ -13,8 +13,7 @@ To generate your individual json files based of links.json
 # NOTES
 
 * Workflow    
-  * Todo  
-  In individuals check to see if files already exist before making them.  
+  * Todo    
   In broader list see if a url is an element already before adding.  
   For job title - If the formatting doesn't include the h1 the h2 grabs more than is needed.   
   Regex location and position so if there's more than one we chuck it into an array.  
@@ -25,6 +24,7 @@ To generate your individual json files based of links.json
   Grab specific job links  
   Grab specific Job Data  
   Format into JSON
+  Will only create invidual .json if it doesn't already exist
 
 
 * Tools  
