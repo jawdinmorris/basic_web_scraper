@@ -34,4 +34,3 @@ To generate your individual json files based of links.json
 
 Notes so far:  
 Enjoy using Cheerio for jQuery, unsure if it's really much easier than without though.
-Created a jobBlank so that jobs folder would appear on github. Unsure how to write a file into a folder that doesn't exist yet?

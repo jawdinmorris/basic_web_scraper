@@ -99,10 +99,12 @@ app.get('/individuals', function(req, res) {
         })
       }
       // write it to their json
+      if (fs.existsSync(`./jobs/job${json.no}.json`)) {
+    console.log(`job${json.no}.json already exists`);
+} else {
       fs.writeFile(`./jobs/job${json.no}.json`, JSON.stringify(json, null, 4), function(err) {
-        console.log(`${json.no}.json File successfully written! - Check your project directory for the links.json file`);
       })
-
+}
     })
   });
   //end of loop let the user know we good.
